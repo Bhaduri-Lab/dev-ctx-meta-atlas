@@ -16,7 +16,7 @@ library(tidyverse)
 # The module gene list used in this script will be generated in the last step of metamodule.generation.R (metaatlas_metamodules, saved with the suffix "_metamodules.rds")
 
 # Arguments: 
-# 1. filepath to module gene list table, with each row containing a module gene (column named: labels) and its assigned module (column named: metamodules) 
+# 1. filepath to module gene list table, with each row containing a module gene (column named: genes) and its assigned module (column named: metamodules) 
 # 2. directory containing the query dataset (argument #3)
 # 3. filename of query dataset: a normalized and scaled seurat object for which module activities are to be calculated 
 
